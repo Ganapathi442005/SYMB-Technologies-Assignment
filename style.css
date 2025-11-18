@@ -1,0 +1,148 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f6f6f6;
+    color:#333;
+}
+
+.header{
+    padding:20px 40px;
+    display:flex;
+    justify-content:space-between;
+    font-size:14px;
+}
+.logo{
+    font-weight:bold;
+}
+
+.hero{
+    background:#3498DB;
+    padding:80px 40px;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.hero-left h1{
+    font-size:36px;
+    margin-bottom:20px;
+}
+.hero-input input{
+    padding:12px;
+    width:220px;
+    border:none;
+    border-radius:4px;
+}
+.hero-input button{
+    padding:12px 20px;
+    background:#f5a623;
+    color:white;
+    border:none;
+    border-radius:4px;
+    margin-left:5px;
+    cursor:pointer;
+}
+.hero-img{
+    width:260px;
+}
+
+.section{
+    padding:60px 40px;
+    text-align:center;
+}
+.section h2{
+    font-size:30px;
+}
+.sub{
+    max-width:600px;
+    margin:auto;
+    font-size:14px;
+    color:#777;
+}
+
+.features{
+    display:flex;
+    justify-content:center;
+    gap:60px;
+    margin-top:40px;
+}
+.feature{
+    width:250px;
+}
+.feature img{
+    width:80px;
+}
+.feature h4{
+    margin-top:15px;
+}
+
+.line{
+    width:80%;
+    margin:40px auto;
+    border:none;
+    border-top:1px solid #ddd;
+}
+
+.emailbar{
+    margin-top:20px;
+}
+.emailbar input{
+    padding:12px;
+    width:220px;
+    border:1px solid #ccc;
+    border-radius:4px;
+}
+.emailbar button{
+    padding:12px 20px;
+    background:#f5a623;
+    color:white;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+.phone-img{
+    width:200px;
+    margin-top:30px;
+}
+
+.team{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    margin-top:40px;
+}
+.member-box{
+    width:250px;
+}
+.avatar{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+}
+
+.contact-section{
+    padding:60px;
+    text-align:center;
+}
+.contact-form{
+    width:480px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+.contact-form input,
+.contact-form textarea{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:4px;
+}
+.send{
+    background:#f5a623;
+    color:white;
+    border:none;
+    padding:14px;
+    border-radius:4px;
+    cursor:pointer;
+}
